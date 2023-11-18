@@ -40,12 +40,12 @@ public class TestAnimal {
 		Animal hAnimal = new Human();
 		Animal tAnimal = new Tiger();
 		Animal eAnimal = new Eagle();
-//		
+		
 //		TestAnimal test = new TestAnimal();
 //		test.moveAnimal(hAnimal);
 //		test.moveAnimal(eAnimal);
 //		test.moveAnimal(tAnimal);
-//		
+
 		ArrayList<Animal> animalList = new ArrayList<>();
 		animalList.add(eAnimal);
 		animalList.add(tAnimal);
