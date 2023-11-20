@@ -14,5 +14,4 @@ public class PlayerLevelTest {
 		player.upgradeLevel(sLevel);
 		player.play(3);
 	}
-
 }
