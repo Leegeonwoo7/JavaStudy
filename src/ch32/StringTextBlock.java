@@ -16,12 +16,12 @@ public class StringTextBlock {
 	
 	public static String getBlockOfHtml() {
 		return """
-				<html>
+			<html>
 				
 				<body>
 					<span>example text</span>
 				</body>
-				</html>
+			</html>
 				""";
 	}
 
