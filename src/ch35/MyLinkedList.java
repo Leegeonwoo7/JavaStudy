@@ -143,4 +143,12 @@ public class MyLinkedList {
 		}
 		System.out.println("");
 	}
+	
+	public boolean isEmpty() {
+		if(count == 0) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
