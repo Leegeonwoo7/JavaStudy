@@ -1,6 +1,6 @@
 package ch36;
 
-import ch34.MyArray;
+import array_apply.MyArray;
 
 public class MyArrayStack {
 	int top;
