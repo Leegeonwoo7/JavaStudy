@@ -1,0 +1,8 @@
+12월 16, 2023 4:35:55 오후 logger_apply.MyLogger log
+경고: test
+12월 16, 2023 4:35:55 오후 logger_apply.MyLogger log
+심각: test
+12월 16, 2023 4:45:47 오후 logger_apply.MyLogger warning
+경고: 이름을 입력해주세요
+12월 16, 2023 4:45:47 오후 logger_apply.MyLogger warning
+경고: 이름을 입력해주세요
