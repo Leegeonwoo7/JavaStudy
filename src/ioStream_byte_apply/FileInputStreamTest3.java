@@ -1,0 +1,25 @@
+package ioStream_byte_apply;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+//파일에서 바이트 배열로 자료읽기 (배열에 남아있는 자료 주의)
+public class FileInputStreamTest3 {
+
+	public static void main(String[] args) {
+		try(FileInputStream fis = new FileInputStream("input2.txt")){
+			byte[] bs = new byte[10];
+			int i;
+			while((i=fis.read(bs)) != -1) {
+				for(int k=0; k<i; k++) {
+					System.out.print((char)bs[k]);
+				}
+				System.out.println(": " + i + "바이트 읽음");
+			}
+		}catch (IOException e) {
+			e.printStackTrace();
+		}
+		System.out.println("end");
+
+	}
+
+}
